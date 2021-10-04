@@ -1,0 +1,70 @@
+body {
+  background-color: #333333;
+  color: wheat;
+  font-size: 60px;
+}
+
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.center {
+  text-align: center;
+  border: 5px solid #4c4e50;
+}
+
+body {
+  font-family: "DM Mono", monospace;
+  font-family: "Lora", serif;
+}
+.monkeyimg {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  padding: 10;
+  padding-bottom: 60;
+  height: 500px;
+  width: 500px;
+}
+.img-1 {
+  position: absolute;
+}
