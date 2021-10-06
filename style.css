@@ -19,7 +19,7 @@ h1 {
 }
 
 .center {
-  border: 0.5rem solid #4c4e50;
+  border: 0.8rem solid #4c4e50;
 }
 
 .monkeyimg {
@@ -27,11 +27,13 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 3rem;
 }
 
 img {
-  padding: 10;
-  padding-bottom: 60;
-  height: 500px;
-  width: 500px;
+  padding: 2rem;
+  height: 50rem;
+  width: 50rem;
+  box-shadow: 10px 5px 5px #565656;
+  border-radius: 3rem;
 }
